@@ -1,0 +1,51 @@
+body{
+	/*background-image: url("photo-1491553895911-0055eca6402d.jpg");*/
+  background: red ;/*#F0F8FF*/
+	margin:0;
+	padding: 0;
+}
+.form{
+  width: 40%;
+	padding-bottom: 10px;
+  background-color: #6cb8df;
+  background-image: linear-gradient(135deg, #6cb8df 0%, #979dee 100%);
+	border:2px solid #6cb8df;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.form-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.input1{
+
+}
+input{
+  border: 1px solid #6cb8df;
+  outline: none;
+  margin: 5px 5px;
+  width: 150px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+input[type=submit] {
+  background-color: #1560bd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  background-color: #1560bd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

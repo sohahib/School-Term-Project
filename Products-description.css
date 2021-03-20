@@ -1,0 +1,53 @@
+body{
+}
+.body{
+	margin-left: 20px;
+}
+img{
+	margin-top: 10px;
+	background: #89CFF0;
+	border-radius: 20px;
+	width:60vh ;
+	height: 70vh;
+}
+p{
+	width: 60%;
+}
+.description{
+	text-indent: 20px;
+}
+
+h3 h5{
+	padding: auto;
+	margin: auto;
+}
+#line{
+	width: 30%;
+	margin-left: 0;
+	border-color: skyblue;
+	outline: none;
+}
+#Button{
+	text-align: center;
+}
+#Button input {
+	width: 40%;
+	font-weight: bold;
+    cursor: pointer;
+    background: #0076CE;
+    border: none;
+    color: #fff;
+    box-sizing: border-box;
+    height: 10px outline: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    transition: all 0.5s;
+}
+#Button input:hover{
+	transform: scale(1.1,1.1); 
+	-webkit-transform: scale(1.1,1.1); 
+	-ms-transform: scale(1.1,1.1); 
+	-moz-transform: scale(1.1,1.1); 
+	background: #6699CC;
+}
+}
